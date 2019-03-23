@@ -1,0 +1,58 @@
+# zsh & oh-my-zsh
+https://github.com/robbyrussell/oh-my-zsh/
+
+# Git
+brew install git
+
+# rbenv
+# https://github.com/rbenv/rbenv
+brew install rbenv
+rbenv init
+# follow output instructions
+
+# Fonts
+https://github.com/ryanoasis/nerd-fonts
+
+# Patched Solarized Dark Color Preset
+https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors
+
+# Prompt
+https://denysdovhan.com/spaceship-prompt/
+
+# Python
+#   virtualenvwrapper
+#   https://virtualenvwrapper.readthedocs.io/en/latest/index.html
+brew install python3
+pip3 install virtualenvwrapper
+pip3 install virtualenv # (???) Not sure if this is necessary 
+
+# iterm config
+# Specify the preferences directory
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles/iterm2"
+# Tell iTerm2 to use the custom preferences in the directory
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+
+# install atom
+# Just ruby
+apm install linter # Base for other linters
+apm install linter-ruby
+apm install linter-rubocop
+apm install rubocop-auto-correct
+# Nicer code
+apm install atom-beautify
+# Testing
+apm install ruby-test
+# Dockerfile support
+apm install language-docker
+# Other
+apm install platformio-ide-terminal # terminal inside your editor
+apm install minimap # Sublime-like minimap
+apm install Sublime-Style-Column-Selection
+apm install toggle-quotes
+apm install trailing-spaces
+apm install git-blame
+
+# gems
+gem install rubocop # static code analyzer
+gem install m # test launcher
+gem install awesome_print
