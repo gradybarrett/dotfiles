@@ -2,6 +2,7 @@
 backup:
 	cp ~/.vimrc ~/dotfiles/
 	cp ~/.bashrc ~/dotfiles/
+	cp ~/.zshrc ~/dotfiles/
 
 .PHONY:push
 push:
