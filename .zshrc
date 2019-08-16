@@ -96,13 +96,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Load rbenv
-eval "$(rbenv init -)"
-
-# Python virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/code/python
-export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
-source /usr/local/bin/virtualenvwrapper_lazy.sh
+source ~/.bashrc
