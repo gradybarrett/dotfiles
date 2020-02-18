@@ -1,0 +1,23 @@
+[user]
+	name = Grady Barrett
+	email = Grady.Barrett@Gmail.com
+[http]
+[https]
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+	eol = lf
+	editor = code --wait
+[credential]
+	helper = osxkeychain
+[push]
+	default = upstream
+[rebase]
+	autosquash = true
+[commit]
+	verbose = true
+[pager]
+	branch = false
+	tag = false
+[rerere]
+	enabled = true
